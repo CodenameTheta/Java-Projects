@@ -53,7 +53,7 @@ public class CodingCauseImBored {
         }else if((firstAnswer > 70000)&&(secondAnswer == 3)){
             System.out.println("you are: " + attributeListThree[randAttThree] + " " + titleListOne[randTitleOne]);
         }else if((firstAnswer < 30000)&&(secondAnswer == 2)){
-            System.out.println("you are" + attributeListOne[randAttOne] + " " + titleListTwo[randTitleTwo]);
+            System.out.println("you are: " + attributeListOne[randAttOne] + " " + titleListTwo[randTitleTwo]);
         }
 
     }
