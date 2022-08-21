@@ -44,19 +44,19 @@ public class CodingCauseImBored {
             System.out.println("1.) working for a company\n 2.) Entrepenuer\n 3.) Cocaine runner");
             int secondAnswer = scanObj.nextInt();
 
-            if((firstAnswer < 30000)&&(secondAnswer == 3)){
+            if((firstAnswer <= 30000)&&(secondAnswer == 3)){
                 System.out.println("you are: " + attributeListOne[randAttOne] + " " + titleListOne[randTitleOne]);
             }else if(((firstAnswer > 30000))&&(firstAnswer < 70000)&&(secondAnswer == 3)){
                 System.out.println("you are: " + attributeListTwo[randAttTwo] + " " + titleListOne[randTitleOne]);
             }else if((firstAnswer > 70000)&&(secondAnswer == 3)){
                 System.out.println("you are: " + attributeListThree[randAttThree] + " " + titleListOne[randTitleOne]);
-            }else if((firstAnswer < 30000)&&(secondAnswer == 1)){
+            }else if((firstAnswer <= 30000)&&(secondAnswer == 1)){
                 System.out.println("you are: " + attributeListOne[randAttOne] + " " + titleListTwo[randTitleTwo]);
             }else if((firstAnswer > 30000)&&(firstAnswer < 70000)&&(secondAnswer == 1)){
                 System.out.println("you are: " + attributeListTwo[randAttTwo] + " " + titleListTwo[randTitleTwo]);
             }else if((firstAnswer > 70000)&&(secondAnswer == 1)){
                 System.out.println("you are: " + attributeListThree[randAttThree] + " " + titleListTwo[randTitleTwo]);
-            }else if((firstAnswer < 30000)&&(secondAnswer == 2)){
+            }else if((firstAnswer <= 30000)&&(secondAnswer == 2)){
                 System.out.println("you are: " + attributeListOne[randAttOne] + " " + titleListThree[randTitleThree]);
             }else if((firstAnswer > 30000)&&(firstAnswer < 70000)&&(secondAnswer == 2)){
                 System.out.println("you are: " + attributeListTwo[randAttTwo] + " " + titleListThree[randTitleThree]);
